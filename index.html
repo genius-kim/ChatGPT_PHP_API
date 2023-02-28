@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>AI-Chat</title>
+
+<link rel="stylesheet" href="css/normalize.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="app-container">
+  
+  <div class="app-main">
+    <div class="chat-wrapper" id="text-main">
+
+    </div>
+    <div class="chat-input-wrapper">
+      <div class="input-wrapper">
+        <input type="text" id="question_text" class="chat-input" placeholder="请输入你的问题">
+      </div>
+      <button class="chat-send-btn" onClick="ask_send()">发送</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+
+</body>
+</html>
